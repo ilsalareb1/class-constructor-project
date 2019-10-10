@@ -6,7 +6,13 @@ class Movies{
         this.director = director;
         this.yearReleased = yearReleased;
     }
+     calculateAge = ()=> new Date().getFullYear() - this.yearReleased;
 }
+
+class UI {
+    createHTML = ()=> let html = ''
+}
+
 
 
 ///***View */class for the UI which contains methods
